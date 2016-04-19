@@ -10,6 +10,7 @@ def substring(chain, lo, hi):
 
 
 def normal_distribution(prob):
+
     z = -6
     connection = sqlite3.connect('simulacion.db')
 
@@ -48,7 +49,6 @@ def normal_distribution(prob):
 
     finally:
         connection.close()
-
     return z
 
 
